@@ -71,3 +71,13 @@
     padding: 8px 12px;
   }
 }
+
+@media (max-width: 500px) {
+  .header {
+    justify-content: center;
+  }
+
+  .header-menu {
+    gap: 10px;
+  }
+}
