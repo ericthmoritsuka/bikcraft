@@ -1,0 +1,17 @@
+.introcucao {
+  background-color: black;
+}
+
+.introducao-bg {
+  max-width: 1160px;
+  background-color: black;
+}
+
+.introducao h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: #ffffff;
+}

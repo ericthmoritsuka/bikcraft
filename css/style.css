@@ -1,3 +1,4 @@
-@import "./header.css";
+@import "./home/header.css";
+@import "./home/introducao.css";
 @import "./global.css";
 @import "./presets.css";
