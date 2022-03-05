@@ -1,0 +1,36 @@
+.header-bg {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  height: 108px;
+  flex-wrap: wrap;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-right: 40px;
+}
+
+.header-menu li a {
+  margin: 20px 0px;
+  padding: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.header img {
+  margin-left: 40px;
+}
