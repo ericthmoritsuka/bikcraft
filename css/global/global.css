@@ -22,6 +22,10 @@ img {
   display: block;
 }
 
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
 p,
 h1,
 h2,
