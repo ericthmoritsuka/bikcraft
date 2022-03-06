@@ -1,3 +1,11 @@
+.font-bt {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
 .font-1-xs {
   font: 500 0.75rem/1.35 "Poppins", sans-serif;
 }

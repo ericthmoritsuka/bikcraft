@@ -1,3 +1,12 @@
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .botao {
   display: inline-block;
   padding: 16px 32px;
@@ -10,7 +19,7 @@
 }
 
 .botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: linear-gradient(#ffb60d, #FC7B0D);
 }
 
 @media (max-width: 600px) {

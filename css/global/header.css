@@ -7,12 +7,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 0px;
   gap: 20px;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .header-menu {
@@ -37,6 +33,7 @@
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
+  border-radius: 4px;
 }
 
 .header-menu a:hover:after {
