@@ -41,6 +41,9 @@
   .parceiros h2 {
     margin-bottom: 20px;
   }
+  .parceiros-lista li {
+    padding: 20px;
+  }
   .parceiros-lista {
     grid-template-columns: repeat(2, 1fr);
   }
