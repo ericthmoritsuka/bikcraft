@@ -4,5 +4,6 @@
 @import "./global/header.css";
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
 @import "./utilidades/componentes.css";
 @import "./bicicletas/bicicletas-home.css"
