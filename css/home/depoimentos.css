@@ -49,12 +49,33 @@
     text-align: center;
   }
 
-  .depoimentos-texto{
-    padding: 40px 20px;
+  .depoimentos-texto {
+    padding: 40px 40px;
     justify-self: center;
   }
 
   .depoimentos img {
     max-height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .depoimentos-texto p {
+    font-size: 24px !important;
+  }
+
+  .depoimentos-span p {
+    font-size: 14px !important;
+  }
+
+  .depoimentos p::before,
+  .depoimentos p::after {
+    font-size: 3rem;
+  }
+  .depoimentos p::before {
+    left: -30px;
+  }
+  .depoimentos p::after {
+    bottom: -36px;
   }
 }
