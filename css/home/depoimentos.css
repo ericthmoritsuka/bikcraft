@@ -50,7 +50,7 @@
   }
 
   .depoimentos-texto {
-    padding: 40px 40px;
+    padding: 40px 20px;
     justify-self: center;
   }
 
@@ -60,22 +60,15 @@
 }
 
 @media (max-width: 600px) {
+  .depoimentos-texto {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
   .depoimentos-texto p {
-    font-size: 24px !important;
+    font-size: 20px !important;
   }
 
-  .depoimentos-span p {
+  .depoimentos-span {
     font-size: 14px !important;
-  }
-
-  .depoimentos p::before,
-  .depoimentos p::after {
-    font-size: 3rem;
-  }
-  .depoimentos p::before {
-    left: -30px;
-  }
-  .depoimentos p::after {
-    bottom: -36px;
   }
 }
