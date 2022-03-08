@@ -102,4 +102,9 @@
   .bicicletas {
     place-self: start;
   }
+
+  .bicicletas span {
+    font-size: 14px;
+    white-space: nowrap;
+  }
 }
