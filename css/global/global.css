@@ -31,6 +31,7 @@ h1,
 h2,
 h3,
 ul,
-blockquote {
+blockquote,
+dd {
   margin: 0px;
 }
