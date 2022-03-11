@@ -15,6 +15,7 @@
 .depoimentos-texto {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 40px right 40px;
 }
 
 .depoimentos-texto p {
@@ -43,6 +44,12 @@
   content: "”";
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
   .depoimentos {
     grid-template-columns: 1fr;
@@ -52,6 +59,7 @@
   .depoimentos-texto {
     padding: 40px 20px;
     justify-self: center;
+    background: none;
   }
 
   .depoimentos img {
