@@ -8,6 +8,8 @@
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
 @import "./utilidades/componentes.css";
+@import "./utilidades/animacao.css";
+
 @import "./seguros/seguros-home.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";

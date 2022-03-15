@@ -32,13 +32,13 @@
   <main class="seguros-bg">
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="font-2-l-b cor-5">escolha o seguro</p>
-        <h1 class="font-1-xxl cor-0">você seguro<span class="cor-p4">.</span></h1>
+        <p class="font-2-l-b cor-5" fadeInLeft" data-anime="125">escolha o seguro</p>
+        <h1 class="font-1-xxl cor-0" fadeInLeft" data-anime="250">você seguro<span class="cor-p4">.</span></h1>
       </div>
     </div>
 
     <div class="seguros container">
-      <div class="seguros-bloco">
+      <div class="seguros-bloco fadeInLeft" data-anime="300">
         <h3 class="font-1-xl cor-5">PRATA</h3>
         <span class="font-1-xl cor-0">R$199<span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -49,7 +49,7 @@
         </ul>
         <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">INSCREVA-SE</a>
       </div>
-      <div class="seguros-bloco">
+      <div class="seguros-bloco fadeInRight" data-anime="600">
         <h3 class="font-1-xl cor-p4">OURO</h3>
         <h4 class="font-1-xl cor-0">R$299<span class="font-1-xs cor-6">mensal</span></h4>
         <ul class="font-2-m cor-0">
@@ -141,7 +141,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <img src="./img/bikcraft.svg" width="136" height="32" alt="">
+      <a href="./"><img src="./img/bikcraft.svg" width="136" height="32" alt=""></a>
       <div class="footer-contato">
         <h3 class="font-2-l-b cor-0">CONTATO</h3>
         <ul class="cor-5">
@@ -170,6 +170,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns Direitos Reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
